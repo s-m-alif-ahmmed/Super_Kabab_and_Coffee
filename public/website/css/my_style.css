@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-link:hover
+{
+    color: black!important;
+}
+
+.img-border
+{
+    height: 750px;
+    background-image: url("https://www.superkababandcoffee.com//website/img/2nd_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.order-border
+{
+    border: 2px solid #aa4723;
+    font-size: 14px;
+}
+
+.btn-border
+{
+    border: 2px solid #373737;
+    font-size: 14px;
+}
+
+.bg-green
+{
+    background-color: #373737!important;
+}
+
+.bg-color
+{
+    background-color: #aa4723!important;
+}
+
+.text-color
+{
+  color: #312b2b;
+
+}
+
+
+.banner
+{
+    height: 700px;
+    width: 100%;
+    background-image: url("https://www.superkababandcoffee.com/website/img/Web_Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.banner
+{
+    height: 700px;
+    width: 100%;
+    background-image: url("https://superkababandcoffee.com/website/img/Web_Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* Media query for screens up to 768 pixels */
+@media only screen and (max-width: 768px) {
+    .banner {
+        height: 500px;
+        width: 100%;
+        background-image: url("https://superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+/* Media query for screens up to 576 pixels */
+@media only screen and (max-width: 576px) {
+    .banner {
+        height: 400px;
+        width: 100%;
+        background-image: url("https://superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+/* Additional media query for iOS devices */
+@media only screen and (max-device-width: 767px) and (device-aspect-ratio: 1/1) {
+    .banner {
+        height: 300px;
+        width: 100%;
+        background-image: url("https://superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+
+/* Additional media query for iOS devices */
+@media only screen and (max-device-width: 576px) and (device-aspect-ratio: 1/1) {
+    .banner {
+        height: 300px;
+        width: 100%;
+        background-image: url("https://superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+
+/* Media query for screens up to 768 pixels */
+@media only screen and (max-width: 768px) {
+    .banner {
+        height: 500px;
+        width: 100%;
+        background-image: url("https://www.superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+/* Media query for screens up to 576 pixels */
+@media only screen and (max-width: 576px) {
+    .banner {
+        height: 400px;
+        width: 100%;
+        background-image: url("https://www.superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+/* Additional media query for iOS devices */
+@media only screen and (max-device-width: 767px) and (device-aspect-ratio: 1/1) {
+    .banner {
+        height: 300px;
+        width: 100%;
+        background-image: url("https://www.superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+
+/* Additional media query for iOS devices */
+@media only screen and (max-device-width: 576px) and (device-aspect-ratio: 1/1) {
+    .banner {
+        height: 300px;
+        width: 100%;
+        background-image: url("https://www.superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+ 
+
+.nav-hover
+{
+    position: relative;
+}
+
+.nav-hover:hover
+{
+
+}
+
+.nav-hover::after
+{
+    content: "";
+    opacity: 0;
+    transition: all 0.5s;
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    width: 85%;
+    height: 2px;
+    background-color: #AA4723;
+}
+
+.nav-hover:hover::after
+{
+     opacity: 1;
+ }
+
+
+
+
