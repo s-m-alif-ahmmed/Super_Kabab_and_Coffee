@@ -107,6 +107,38 @@
                             <div class="card-body border-0">
                                 <form method="POST" action="{{route('login')}}">
                                     @csrf
+
+                                    <div class="mb-4 pb-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p class="fw-bold mb-2 small text-muted text-uppercase">Demo Access</p>
+                                                <div class="table-responsive">
+                                                    <table class="table table-sm table-bordered mb-0" style="font-size: 13px;">
+                                                        <thead class="bg-light">
+                                                            <tr>
+                                                                <th>Role</th>
+                                                                <th>Email</th>
+                                                                <th>Password</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="fw-bold">Admin</td>
+                                                                <td>admin@admin.com</td>
+                                                                <td>12345678</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">User</td>
+                                                                <td>user@gmail.com</td>
+                                                                <td>12345678</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div class="row mb-3">
                                         <label class="col-md-3">Email</label>
                                         <div class="col-md-12">
