@@ -20,7 +20,7 @@
 .img-border
 {
     height: 750px;
-    background-image: url("https://www.superkababandcoffee.com//website/img/2nd_image.jpg");
+    background-image: url("/website/img/2nd_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -36,6 +36,12 @@
 {
     border: 2px solid #373737;
     font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.btn-border:hover {
+    background-color: #373737;
+    color: white !important;
 }
 
 .bg-green
@@ -46,6 +52,11 @@
 .bg-color
 {
     background-color: #aa4723!important;
+    transition: all 0.3s ease;
+}
+
+.bg-color:hover {
+    background-color: #8c3b1d !important;
 }
 
 .text-color
@@ -59,7 +70,7 @@
 {
     height: 700px;
     width: 100%;
-    background-image: url("https://www.superkababandcoffee.com/website/img/Web_Banner.png");
+    background-image: url("/website/img/Web_Banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -71,7 +82,7 @@
 {
     height: 700px;
     width: 100%;
-    background-image: url("https://superkababandcoffee.com/website/img/Web_Banner.png");
+    background-image: url("/website/img/Web_Banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -84,7 +95,7 @@
     .banner {
         height: 500px;
         width: 100%;
-        background-image: url("https://superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-image: url("/website/img/Web_Banner_2.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -97,7 +108,7 @@
     .banner {
         height: 400px;
         width: 100%;
-        background-image: url("https://superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-image: url("/website/img/Web_Banner_2.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -110,7 +121,7 @@
     .banner {
         height: 300px;
         width: 100%;
-        background-image: url("https://superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-image: url("/website/img/Web_Banner_2.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -124,7 +135,7 @@
     .banner {
         height: 300px;
         width: 100%;
-        background-image: url("https://superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-image: url("/website/img/Web_Banner_2.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -138,7 +149,7 @@
     .banner {
         height: 500px;
         width: 100%;
-        background-image: url("https://www.superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-image: url("/website/img/Web_Banner_2.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -151,7 +162,7 @@
     .banner {
         height: 400px;
         width: 100%;
-        background-image: url("https://www.superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-image: url("/website/img/Web_Banner_2.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -164,7 +175,7 @@
     .banner {
         height: 300px;
         width: 100%;
-        background-image: url("https://www.superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-image: url("/website/img/Web_Banner_2.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -178,7 +189,7 @@
     .banner {
         height: 300px;
         width: 100%;
-        background-image: url("https://www.superkababandcoffee.com/website/img/Web_Banner_2.png");
+        background-image: url("/website/img/Web_Banner_2.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

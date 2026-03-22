@@ -30,7 +30,7 @@ return new class extends Migration
             $table->string('note')->nullable();
             $table->string('all_terms');
             $table->string('tracking_id');
-            $table->timestamps()->format('asis/dhaka');
+            $table->timestamps();
         });
     }
 

@@ -50,14 +50,14 @@
 
                                 <div class="row mb-3">
                                     <div class="col-md-12">
-                                        <input type="submit" class="btn btn-outline-success rounded-0" value="SIGN UP"/>
-                                        <a href="{{route('login')}}" class="btn rounded-0" style="border: 2px solid darkslategrey">LOGIN</a>
+                                        <input type="submit" class="btn bg-color text-white rounded-0 px-4" value="SIGN UP"/>
+                                        <a href="{{route('login')}}" class="btn btn-border text-black rounded-0 px-4">LOGIN</a>
                                     </div>
                                 </div>
 
-                                <hr/>
+                                <!-- <hr/> -->
 
-                                <div class="row mb-2 col-md-5 mx-auto">
+                                <!-- <div class="row mb-2 col-md-5 mx-auto">
                                     <a href="/auth/facebook/redirect" class="btn btn-primary">
                                             <span>
                                                 <i class="fa-brands fa-facebook-f" style="color: #ebedef;"></i>
@@ -72,7 +72,7 @@
                                                 SIGN UP WITH GOOGLE
                                             </span>
                                     </a>
-                                </div>
+                                </div> -->
 
                             </form>
                         </div>

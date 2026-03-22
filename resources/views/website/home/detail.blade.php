@@ -20,11 +20,11 @@
                     <span class="text-muted"><p style="font-size: 20px;">TK {{$item->price}}</p></span>
                     <form action="{{route('cart.add', $item->id)}}" method="POST" class="cart">
                         @csrf
-                        <button class=" btn rounded-0 py-3  p-127 border btn-border text-black" type="submit">Add to cart</button>
+                        <button class="btn btn-border text-black rounded-0 py-3 w-100 mb-2 text-uppercase" type="submit">Add to cart</button>
                     </form>
                     <form action="{{route('checkout.info', Crypt::encryptString($item->id) )}}" method="POST" class="cart">
                         @csrf
-                        <button class=" btn rounded-0 py-3 px-4 p-127 border btn-border text-black" type="submit">BUY IT NOW </button>
+                        <button class="btn bg-color text-white rounded-0 py-3 w-100 text-uppercase" type="submit">BUY IT NOW</button>
                     </form>
 
                     <p class="pt-5">SHARE</p>

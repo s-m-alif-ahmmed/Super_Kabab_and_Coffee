@@ -123,8 +123,8 @@
                                     </div>
                                     <div class="row mb-3">
                                         <div class="col-md-6">
-                                            <input type="submit" class="btn btn-success bg-green-dark rounded-0" value="LOGIN"/>
-                                            <a href="{{route('register')}}" class="btn rounded-0" style="border: 2px solid darkslategrey">SIGN UP</a>
+                                            <input type="submit" class="btn bg-color text-white rounded-0 px-4" value="LOGIN"/>
+                                            <a href="{{route('register')}}" class="btn btn-border text-black rounded-0 px-4">SIGN UP</a>
                                         </div>
                                         @if (Route::has('password.request'))
                                         <div class="col-md-6 text-end pt-2">
@@ -133,9 +133,9 @@
                                         @endif
                                     </div>
 
-                                    <hr/>
+                                    <!-- <hr/> -->
 
-                                    <div class="row mb-2 col-md-5 mx-auto">
+                                    <!-- <div class="row mb-2 col-md-5 mx-auto">
                                         <a href="/auth/facebook/redirect" class="btn btn-primary">
                                             <span>
                                                 <i class="fa-brands fa-facebook-f" style="color: #ebedef;"></i>
@@ -150,7 +150,7 @@
                                                 SIGN IN WITH GOOGLE
                                             </span>
                                         </a>
-                                    </div>
+                                    </div> -->
 
                                 </form>
                             </div>
